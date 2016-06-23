@@ -1,0 +1,117 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>pan.org</groupId>
+	<artifactId>cucumbertest</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>cucumbertest</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.7</java.version>
+		<junit.version>4.12</junit.version>
+		<cucumber.version>1.2.4</cucumber.version>
+		<maven.compiler.version>3.3</maven.compiler.version>
+		<sbe.dynamic.tiles2.version>1.2.4</sbe.dynamic.tiles2.version>
+		<sbe.rest.version>0.52</sbe.rest.version>
+		<sbe.util.version>1.2.6</sbe.util.version>
+		<contact.app.version>1.1.2</contact.app.version>
+
+		<spring.framework.version>4.1.4.RELEASE</spring.framework.version>
+		<spring.amqp.version>1.4.2.RELEASE</spring.amqp.version>
+		<spring.data.jpa.version>1.7.1.RELEASE</spring.data.jpa.version>
+		<spring.data.rest.version>2.2.1.RELEASE</spring.data.rest.version>
+		<spring.flex.version>1.5.2.RELEASE</spring.flex.version>
+		<spring.integration.version>4.1.2.RELEASE</spring.integration.version>
+		<spring.security.version>3.2.5.RELEASE</spring.security.version>
+		<spring.webflow.version>2.3.3.RELEASE</spring.webflow.version>
+		<spring.ws.version>2.1.4.RELEASE</spring.ws.version>
+
+		<aspectj.version>1.8.4</aspectj.version>
+		<dozer.version>5.5.1</dozer.version>
+		<hibernate.version>4.3.8.Final</hibernate.version>
+		<jackson.mapper.version>2.5.0</jackson.mapper.version>
+		<jackrabbit.version>2.9.0</jackrabbit.version>
+		<jasper.el.version>6.0.35</jasper.el.version>
+		<jetty.version>6.1.26</jetty.version>
+		<jstl.version>1.1.2</jstl.version>
+		<logback.version>1.1.2</logback.version>
+		<postgresql.jdbc.version>9.3-1100-jdbc4</postgresql.jdbc.version>
+		<slf4j.version>1.7.10</slf4j.version>
+		<spring.modules.version>0.8a</spring.modules.version>
+		<tiles.version>2.2.2</tiles.version>
+
+		<junit.version>4.12</junit.version>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.2.6.RELEASE</version>
+		</dependency>
+
+		<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.2.6.RELEASE</version>
+        </dependency>   
+		<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>4.2.6.RELEASE</version>
+        </dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.2.6.RELEASE</version>
+		</dependency>
+		 <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>4.3.0.RELEASE</version>
+        </dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-spring</artifactId>
+			<version>1.2.4</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+	<bean id="id" class="pan.org.cucumbertest.Animal">
+		<property name="monkey" ref="monkey" />
+
+	</bean>
+
+	<bean id="monkey" class="pan.org.cucumbertest.Monkey">
+		<property name="name" value="Pankaj" />
+		<property name="colour" value="Red" />
+		<property name="origin" value="india"/>
+	</bean>
+
+</beans>
